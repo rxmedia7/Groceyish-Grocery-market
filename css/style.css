@@ -5,9 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Quicksand";
 }
 
 :root {
+    --bg-color: #FFF;
     --primary-color: #3BB77E;
     --secondary-color: #ADADAD;
     --text-color: #253D4E;
@@ -33,7 +35,8 @@ a {
 }
 
 p {
-    color: var(--text-color)
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 h1,
