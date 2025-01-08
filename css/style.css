@@ -12,10 +12,10 @@
 :root {
     --bg-color: #1C1C1C;
     --text-color: #FFF;
-    --card-bg: #ffffff20;
+    --searchbar: #ffffff20;
     --icons: #FFF;
     --primary-color: #3BB77E;
-    --secondary-color: #ADADAD;
+    --secondary-color: #f3f2f2;
     --add-button: #DEF9EC;
     --sale: #FFD480;
     --white: #FFF;
@@ -23,7 +23,10 @@
 }
 
 .daymode {
+    --primary-color: #3BB77E;
+    --secondary-color: #ADADAD;
     --bg-color: #FFF;
+    --searchbar: #F3F3F3;
     --text-color: #253D4E;
     --banner: #FFF7E6;
     --card-bg: #FFF;
@@ -106,9 +109,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: left;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
-    background-color: var(--card-bg);
+    background-color: var(--searchbar);
     border: none;
     outline: none;
 }
@@ -120,4 +123,27 @@ nav {
     gap: 20px;
     background-color: transparent;
     color: var(--text-color);
+}
+
+.searchbar form select {
+    color: var(--text-color);
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.searchbar form select option {
+    backdrop-filter: blur(40px);
+    box-shadow: none;
+}
+
+.searchbar p,
+input {
+    color: var(--secondary-color);
+    border: none;
+    outline: none;
+    background-color: transparent;
+
 }
