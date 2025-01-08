@@ -110,6 +110,7 @@ nav {
     align-items: center;
     justify-content: left;
     padding: 15px;
+    height: 45px;
     border-radius: 8px;
     background-color: var(--searchbar);
     border: none;
@@ -139,11 +140,17 @@ nav {
     box-shadow: none;
 }
 
-.searchbar p,
-input {
+.searchbar p {
+    color: var(--secondary-color);
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.searchbar input {
     color: var(--secondary-color);
     border: none;
     outline: none;
     background-color: transparent;
-
+    font-size: 16px;
+    min-width: 400px;
 }
