@@ -1,5 +1,5 @@
 let modeswitch = document.querySelector("#modeswitcher");
 
 modeswitch.addEventListener("pointerdown", () => {
-    document.classList.toggle("nightmode");
+    document.body.classList.toggle("daymode");
 })
