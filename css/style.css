@@ -108,7 +108,9 @@ nav {
     justify-content: left;
     padding: 10px;
     border-radius: 8px;
-    background-color: #F3F3F3;
+    background-color: var(--card-bg);
+    border: none;
+    outline: none;
 }
 
 .searchbar form {
@@ -116,4 +118,6 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    background-color: transparent;
+    color: var(--text-color);
 }
