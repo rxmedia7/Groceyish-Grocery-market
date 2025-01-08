@@ -69,7 +69,7 @@ i {
 
 .container {
     max-width: 1300px;
-    padding: 0px 20px;
+    padding: 20px;
     margin: 0px auto;
 }
 
@@ -78,7 +78,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .logo {
@@ -152,7 +151,7 @@ nav {
     outline: none;
     background-color: transparent;
     font-size: 16px;
-    min-width: 400px;
+    min-width: 350px;
 }
 
 .searchbar #s_icon {
@@ -170,4 +169,40 @@ nav {
     background-color: transparent;
     color: var(--white);
     font-size: 26px;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.pages i{
+    font-size: 26px;
+    color: var(--icons);
+}
+
+.wishlist,
+.my_cart,
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wishlist,
+.my_cart,
+.user p {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wishlist,
+.my_cart,
+.user i {
+    color: var(--icons);
+    font-size: 18px;
+    font-weight: 600;
 }
