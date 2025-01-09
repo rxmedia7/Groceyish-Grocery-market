@@ -18,7 +18,7 @@
     --add-button: #DEF9EC;
     --sale: #FFD480;
     --white: #FFF;
-    transition: .5s;
+    transition: .3s;
 }
 
 .daymode {
@@ -30,7 +30,7 @@
     --banner: #FFF7E6;
     --card-bg: #FFF;
     --icons: #2c2c2c;
-    transition: .5s;
+    transition: .3s;
 }
 
 body {
@@ -84,6 +84,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 6px;
 }
 
 .logo img {
@@ -225,10 +226,16 @@ nav {
     font-size: 36px;
 }
 
+.user p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .user .bi-chevron-down {
     font-size: 12px;
 }
 
 #modeswitcher {
     font-size: 22px;
+    padding-left: 10px;
 }
