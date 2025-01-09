@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand";
-    background-color: var(--bg-color);
 }
 
 :root {
@@ -38,6 +37,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--bg-color);
+
 }
 
 li {
@@ -63,7 +63,7 @@ h6 {
 }
 
 i {
-    font-size: 26px;
+    font-size: 20px;
     color: var(--icons);
 }
 
@@ -87,18 +87,18 @@ nav {
 }
 
 .logo img {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
 }
 
 .logo #logotxt h2 {
-    font-size: 21px;
+    font-size: 18px;
     color: var(--primary-color);
     font-weight: 600;
 }
 
 .logo #logotxt p {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: var(--secondary-color);
     text-transform: uppercase;
@@ -129,7 +129,7 @@ nav {
     color: var(--text-color);
     background-color: transparent;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     outline: none;
 }
@@ -150,7 +150,7 @@ nav {
     border: none;
     outline: none;
     background-color: transparent;
-    font-size: 16px;
+    font-size: 14px;
     min-width: 350px;
 }
 
@@ -168,7 +168,7 @@ nav {
 .searchbar #s_icon i {
     background-color: transparent;
     color: var(--white);
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .pages {
@@ -176,33 +176,59 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding: 10px 0px 10px 30px;
 }
-.pages i{
-    font-size: 26px;
+
+.pages i {
+    font-size: 22px;
     color: var(--icons);
 }
 
-.wishlist,
-.my_cart,
+.wishlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.wishlist p {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.my_cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.my_cart p {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.my_cart .bi-chevron-down {
+    font-size: 12px;
+}
+
 .user {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
 }
 
-.wishlist,
-.my_cart,
-.user p {
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.wishlist,
-.my_cart,
 .user i {
-    color: var(--icons);
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 36px;
+}
+
+.user .bi-chevron-down {
+    font-size: 12px;
+}
+
+#modeswitcher {
+    font-size: 22px;
 }
