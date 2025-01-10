@@ -114,6 +114,7 @@ nav {
     border-radius: 8px;
     background-color: var(--searchbar);
     border: none;
+    overflow: hidden;
     outline: none;
 }
 
