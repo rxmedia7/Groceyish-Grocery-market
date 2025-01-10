@@ -139,8 +139,8 @@ nav {
 }
 
 .searchbar form select option {
-    backdrop-filter: blur(40px);
-    box-shadow: none;
+    background-color: var(--searchbar);
+    z-index: 5;
 }
 
 .searchbar p {
