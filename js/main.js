@@ -4,8 +4,8 @@ modeswitch.addEventListener("pointerdown", () => {
     document.body.classList.toggle("daymode");
 })
 
-let hltext = document.querySelector("#hl_txt");
-let icon = document.querySelector("#ico");
+let hltext = document.querySelector(".hl_txt");
+let icon = document.querySelectorAll(".ico");
 
 hltext.addEventListener("mouseover", () =>{
     icon.style.color = ("#3BB77E");
