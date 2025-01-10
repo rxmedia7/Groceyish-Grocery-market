@@ -37,7 +37,6 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--bg-color);
-
 }
 
 li {
@@ -60,6 +59,7 @@ h4,
 h5,
 h6 {
     color: var(--text-color);
+    font-weight: 500;
 }
 
 i {
@@ -101,7 +101,6 @@ nav {
 .logo #logotxt p {
     font-size: 12px;
     font-weight: 400;
-    color: var(--secondary-color);
     text-transform: uppercase;
 }
 
@@ -143,7 +142,6 @@ nav {
 }
 
 .searchbar p {
-    color: var(--secondary-color);
     font-size: 18px;
     background-color: transparent;
 }
