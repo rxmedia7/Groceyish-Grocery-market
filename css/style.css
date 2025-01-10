@@ -303,10 +303,42 @@ nav {
     width: 100%;
     background-color: #c5ead9b2;
     z-index: -2;
+    box-sizing: border-box;
 }
 
 .banner_img {
     width: 100%;
     height: 100%;
     background: url(../assets/images/background.png);
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b_left h1 {
+    font-size: 55px;
+    color: #253D4E;
+    font-weight: 600;
+}
+
+.b_left p {
+    font-size: 20px;
+    color: #838383;
+    padding: 10px 0px;
+}
+
+.contact_us {
+    padding: 10px;
+    background-color: var(--searchbar);
+    border-radius: 8px;
+}
+
+.contact_us form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
