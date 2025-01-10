@@ -304,6 +304,7 @@ nav {
     background-color: #c5ead9b2;
     z-index: -2;
     box-sizing: border-box;
+
 }
 
 .banner_img {
@@ -318,6 +319,12 @@ nav {
     justify-content: space-between;
 }
 
+.header_center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .b_left h1 {
     font-size: 55px;
     color: #253D4E;
@@ -327,7 +334,7 @@ nav {
 .b_left p {
     font-size: 20px;
     color: #838383;
-    padding: 10px 0px;
+    padding: 30px 0px 40px 0px;
 }
 
 .contact_us {
@@ -336,6 +343,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .contact_us form {
@@ -345,7 +353,7 @@ nav {
     gap: 10px;
     padding: 10px;
     background-color: transparent;
-    width: 90%;
+    width: 80%;
     height: 100%;
 }
 
@@ -360,7 +368,7 @@ nav {
     color: var(--text-color);
     font-size: 16px;
     font-weight: 500;
-    width: 100%;
+    width: 80%;
 }
 
 .b_left button {
@@ -368,5 +376,13 @@ nav {
     height: 100%;
     background-color: var(--primary-color);
     color: var(--white);
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 15px 10px;
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
