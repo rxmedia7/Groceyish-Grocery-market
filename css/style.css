@@ -269,3 +269,17 @@ nav {
     font-size: 16px;
     color: var(--white);
 }
+
+.header_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.header_links :nth-child(n) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
