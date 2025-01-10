@@ -116,6 +116,7 @@ nav {
     border: none;
     overflow: hidden;
     outline: none;
+    width: max-content;
 }
 
 .searchbar form {
@@ -153,7 +154,7 @@ nav {
     outline: none;
     background-color: transparent;
     font-size: 14px;
-    min-width: 350px;
+    width: 350px;
 }
 
 .searchbar #s_icon {
@@ -239,4 +240,32 @@ nav {
 #modeswitcher {
     font-size: 22px;
     padding-left: 10px;
+}
+
+/* Header */
+.headertop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.browse {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 8px;
+}
+
+.browse i {
+    font-size: 24px;
+    color: var(--white);
+}
+
+.browse p {
+    font-size: 16px;
+    color: var(--white);
 }
