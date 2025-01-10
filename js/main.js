@@ -15,6 +15,7 @@ icon.addEventListener("mouseover", () =>{
     icon.style.color = ("#3BB77E");
     hltext.style.color = ("#3BB77E");
 })
+
 hltext.addEventListener("mouseout", () =>{
     icon.style.color = ("");
     hltext.style.color = ("");
