@@ -31,7 +31,7 @@
     --searchbar: #F3F3F3;
     --text-color: #253D4E;
     --banner: #FFF7E6;
-    --card-bg: #FFF;
+    --card-bg: #FEEFEA;
     --icons: #2c2c2c;
     --header-mail: #fff;
     --arrow-btn: #f2f3f4;
@@ -462,6 +462,10 @@ nav {
     background-color: var(--card-bg);
     padding: 10px;
     text-align: center;
+}
+
+.card img {
+    margin: 0px auto;
 }
 
 .fruitname {
