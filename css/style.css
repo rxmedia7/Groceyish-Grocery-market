@@ -47,6 +47,7 @@ li {
 
 a {
     text-decoration: none;
+    color: var(--text-color);
 }
 
 p {
@@ -410,11 +411,20 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0px;
 }
 
 .exp_categories ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
+}
+
+.exp_categories h2 {
+    font-size: 32px;
+}
+
+.exp_categories ul li a:hover {
+    color: var(--primary-color);
 }
