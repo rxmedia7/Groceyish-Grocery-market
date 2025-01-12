@@ -439,3 +439,11 @@ nav {
     border-radius: 50%;
     text-align: center;
 }
+.bi-arrow-right {
+    font-size: 18px;
+    color: var(--text-color);
+    background-color: var(--arrow-btn);
+    padding: 5px 7px;
+    border-radius: 50%;
+    text-align: center;
+}
