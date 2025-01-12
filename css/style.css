@@ -455,6 +455,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0px;
 }
 
 .card {
@@ -466,6 +467,8 @@ nav {
 
 .card img {
     margin: 0px auto;
+    width: 100px;
+    height: 100px;
 }
 
 .fruitname {
