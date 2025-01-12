@@ -404,3 +404,10 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
+.exp_categories ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
