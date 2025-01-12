@@ -312,7 +312,6 @@ nav {
     width: 100%;
     height: 100%;
     background-color: #c5ead9b2;
-
     z-index: -5;
 }
 
@@ -340,6 +339,14 @@ nav {
     font-size: 20px;
     color: #838383;
     padding: 30px 0px 40px 0px;
+}
+
+.b_right img {
+    width: 632px;
+    height: 513px;
+    position: absolute;
+    right: -80vh;
+    top: 0vh;
 }
 
 .contact_us {
