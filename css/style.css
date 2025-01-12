@@ -397,3 +397,10 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+/* Main content */
+.exp_categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
