@@ -461,7 +461,7 @@ nav {
 
 .card {
     border-radius: 8px;
-    background-color: var(--card-bg);
+    background-color:  var(--card-bg);
     padding: 15px;
     text-align: center;
 }
