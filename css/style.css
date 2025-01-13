@@ -428,7 +428,7 @@ nav {
     font-size: 32px;
 }
 
-.exp_categories ul li a:hover {
+.exp_categories ul li, li a:hover {
     color: var(--primary-color);
 }
 
