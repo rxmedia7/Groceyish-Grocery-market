@@ -21,7 +21,6 @@
     --header-mail: #5C5C5C;
     --arrow-btn: #f2f3f444;
     --card-bg: #feefea5b;
-    transition: .3s;
 }
 
 .daymode {
@@ -35,13 +34,13 @@
     --icons: #2c2c2c;
     --header-mail: #fff;
     --arrow-btn: #f2f3f4;
-    transition: .3s;
 }
 
 body {
     width: 100vw;
     height: 100vh;
     background-color: var(--bg-color);
+    transition: .5s;
 }
 
 li {
@@ -331,6 +330,7 @@ nav {
     justify-content: space-between;
     position: relative;
     top: -480px;
+    margin: auto 0px;
 }
 
 .b_left h1 {
@@ -367,7 +367,7 @@ nav {
     align-items: center;
     justify-content: left;
     gap: 10px;
-    padding: 10px;
+    padding: 0px 10px;
     background-color: transparent;
     width: 80%;
     height: 100%;
@@ -393,6 +393,10 @@ nav {
     font-weight: 500;
 }
 
+l.b_left {
+    margin: auto 0px;
+}
+
 .b_left button {
     width: 80px;
     height: 100%;
@@ -407,6 +411,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    right: -29%;
 }
 
 /* Main content */
@@ -428,7 +434,8 @@ nav {
     font-size: 32px;
 }
 
-.exp_categories ul li, li a:hover {
+.exp_categories ul li,
+li a:hover {
     color: var(--primary-color);
 }
 
@@ -461,7 +468,7 @@ nav {
 
 .card {
     border-radius: 8px;
-    background-color:  var(--card-bg);
+    background-color: var(--card-bg);
     padding: 15px;
     text-align: center;
 }
