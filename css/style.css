@@ -248,9 +248,10 @@ nav {
 }
 
 #nav_split {
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
     border-radius: 20px;
-    border: .3px solid var(--secondary-color);
+    width: 100vw;
+    height: 1px;
 }
 
 /* Header */
@@ -330,7 +331,11 @@ nav {
     justify-content: space-between;
     position: relative;
     top: -480px;
+}
+
+.b_left {
     margin: auto 0px;
+    padding: 90px 0px;
 }
 
 .b_left h1 {
@@ -391,10 +396,6 @@ nav {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 500;
-}
-
-l.b_left {
-    margin: auto 0px;
 }
 
 .b_left button {
