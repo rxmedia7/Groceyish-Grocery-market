@@ -21,6 +21,7 @@
     --header-mail: #5C5C5C;
     --arrow-btn: #f2f3f444;
     --card-bg: #feefea5b;
+    --featured: #ffffff2d;
 }
 
 .daymode {
@@ -34,6 +35,7 @@
     --icons: #2c2c2c;
     --header-mail: #fff;
     --arrow-btn: #f2f3f4;
+    --featured: #0000002d;
 }
 
 body {
@@ -498,4 +500,66 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.featured_card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.f_card {
+    border-radius: 8px;
+    background-color: var(--featured);
+}
+
+.f_card img {
+    width: 224px;
+    height: 144px;
+    border-radius: 8px;
+}
+
+.f_main {
+    padding: 10px;
+}
+
+.which_ctg {
+    font-size: 12px;
+    color: var(--secondary-color);
+}
+
+.prod_name {
+    font-size: 18px;
+    padding: 5px 0px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}
+
+.bi-star-fill {
+    color: yellow;
+    font-size: 12px;
+}
+
+.bi-star {
+    color: #838383;
+    font-size: 12px;
+}
+
+.owner {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}
+
+.owner :nth-child(2) {
+    color: var(--primary-color);
+    font-weight: 600;
 }
