@@ -413,29 +413,31 @@ nav {
     align-items: center;
     justify-content: center;
     position: relative;
-    right: -29%;
+    right: -29.5%;
 }
 
 /* Main content */
-.exp_categories {
+/* Explore Categories */
+
+.exp_top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0px;
 }
 
-.exp_categories ul {
+.ctgs ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-.exp_categories h2 {
+.heading {
     font-size: 32px;
 }
 
-.exp_categories ul li,
+.ctgs ul li,
 li a:hover {
     color: var(--primary-color);
 }
@@ -488,4 +490,12 @@ li a:hover {
     color: var(--secondary-color);
     font-size: 14px;
     padding: 5px 0px;
+}
+
+/* Featured Products */
+
+.featured_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
