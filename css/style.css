@@ -563,3 +563,22 @@ li a:hover {
     color: var(--primary-color);
     font-weight: 600;
 }
+
+.get_prod {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.f_left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.f_left :nth-child(2) {
+    font-size: 13px;
+    text-decoration: dashed;
+    color: #ADADAD;
+}
