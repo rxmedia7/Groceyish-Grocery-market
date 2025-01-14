@@ -35,7 +35,7 @@
     --icons: #2c2c2c;
     --header-mail: #fff;
     --arrow-btn: #f2f3f4;
-    --featured: #0000002d;
+    --featured: #0000000c;
 }
 
 body {
@@ -513,6 +513,7 @@ li a:hover {
 .f_card {
     border-radius: 8px;
     background-color: var(--featured);
+    box-shadow: 0px 0px 18px -10px gray;
 }
 
 .f_card img {
@@ -543,13 +544,17 @@ li a:hover {
 }
 
 .bi-star-fill {
-    color: yellow;
+    color: #FDC040;
     font-size: 12px;
 }
 
 .bi-star {
     color: #838383;
     font-size: 12px;
+}
+
+.star_count {
+    font-size: 10px;
 }
 
 .owner {
@@ -569,16 +574,45 @@ li a:hover {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    padding: 30px 0px 0px 0px;
 }
 
 .f_left {
     display: flex;
     align-items: center;
     justify-content: left;
+    gap: 10px;
+}
+
+.f_left p {
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: 16px;
 }
 
 .f_left :nth-child(2) {
     font-size: 13px;
     text-decoration: dashed;
     color: #ADADAD;
+}
+
+.f_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 4px;
+    background-color: var(--add-button);
+    padding: 3px 10px;
+}
+
+.bi-cart3 {
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+.f_right p {
+    font-size: 13px;
+    color: var(--primary-color);
+    font-weight: 700;
 }
