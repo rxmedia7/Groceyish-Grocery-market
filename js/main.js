@@ -7,12 +7,12 @@ modeswitch.addEventListener("pointerdown", () => {
 let hltext = document.querySelectorAll(".hl_txt");
 let icon = document.querySelectorAll(".ico");
 
-hltext.addEventListener("mouseover", () => {
-    icon.style.color = ("#3BB77E");
-    hltext.style.color = ("#3BB77E");
-})
-icon.addEventListener("mouseover", () => {
-    icon.style.color = ("#3BB77E");
-    hltext.style.color = ("#3BB77E");
-})
+// hltext.addEventListener("mouseover", () => {
+//     icon.style.color = ("#3BB77E");
+//     hltext.style.color = ("#3BB77E");
+// })
+// icon.addEventListener("mouseover", () => {
+//     icon.style.color = ("#3BB77E");
+//     hltext.style.color = ("#3BB77E");
+// })
 
