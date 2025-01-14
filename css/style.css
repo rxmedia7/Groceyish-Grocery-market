@@ -35,7 +35,7 @@
     --icons: #2c2c2c;
     --header-mail: #fff;
     --arrow-btn: #f2f3f4;
-    --featured: #0000000c;
+    --featured: 2px solid #adadad49;
 }
 
 body {
@@ -500,6 +500,7 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0px;
 }
 
 .featured_card {
@@ -508,12 +509,13 @@ li a:hover {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    padding: 10px 0px;
 }
 
 .f_card {
     border-radius: 8px;
+    border: var(--featured);
     background-color: var(--featured);
-    box-shadow: 0px 0px 18px -10px gray;
 }
 
 .f_card img {
