@@ -648,10 +648,7 @@ li a:hover {
 }
 
 .delivery {
-    background: url("../assets/images/background.png");
-    border-radius: 15px;
-    background-position: center;
-    background-size: cover;
+  background-color: #FFF5E1;
 }
 
 .del_main {
@@ -665,6 +662,10 @@ li a:hover {
 
 #del_bg {
     border-radius: 15px;
+    background: url("../assets/images/background.png");
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
 }
 
 .del_main #btn_top {
