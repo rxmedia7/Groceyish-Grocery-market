@@ -308,10 +308,12 @@ nav {
 
 #call_number {
     color: var(--primary-color);
+    font-weight: 500;
 }
 
 .bi-telephone {
     color: var(--primary-color);
+    font-weight: 500;
 }
 
 .banner {
