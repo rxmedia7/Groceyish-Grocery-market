@@ -658,8 +658,9 @@ li a:hover {
 
 .del_main {
     display: flex;
-    align-items: start;
-    justify-content: space-between;
+    align-items: top;
+    justify-content: left;
+    gap: 40px;
 }
 
 #del_bg {
