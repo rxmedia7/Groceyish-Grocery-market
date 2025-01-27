@@ -669,6 +669,8 @@ li a:hover {
     background-position: center;
     background-size: contain;
     z-index: 5;
+    width: 100%;
+    height: 100%;
 }
 
 .del_main #btn_top {
