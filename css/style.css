@@ -669,3 +669,21 @@ li a:hover {
     background-size: cover;
     opacity: .5;
 }
+
+.del_main #btn_top {
+    width: 86px;
+    height: 26px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: var(--sale);
+}
+
+.del_left h2 {
+    font-size: 28px;
+    color: #253d4e;
+}
+
+.del_left p {
+    font-size: 18px;
+    color: #838383;
+}
