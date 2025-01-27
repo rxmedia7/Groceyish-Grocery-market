@@ -648,11 +648,16 @@ li a:hover {
 }
 
 .delivery {
-    background-color: #fff5e1c2;
+   
+    z-index: -5;
+
     border-radius: 15px;
+    background: url("../assets/images/background.png");
+    border-radius: 15px;
+    background-position: center;
+    background-size: contain;
     width: 592px;
     height: 300px;
-    z-index: -5;
 }
 
 .del_main {
@@ -662,12 +667,8 @@ li a:hover {
 }
 
 #del_bg {
+    background-color: #fff5e1c2;
     border-radius: 15px;
-    background: url("../assets/images/background.png");
-    border-radius: 15px;
-    background-position: center;
-    background-size: contain;
-    z-index: 5;
     width: 100%;
     height: 100%;
     padding: 33px 0px 0px 48px;
