@@ -648,10 +648,11 @@ li a:hover {
 }
 
 .delivery {
-    background-color: #FFF5E1;
+    background-color: #fff5e1c2;
     border-radius: 15px;
     width: 592px;
     height: 300px;
+    z-index: -5;
 }
 
 .del_main {
