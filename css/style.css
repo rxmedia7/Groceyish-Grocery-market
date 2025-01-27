@@ -648,14 +648,11 @@ li a:hover {
 }
 
 .delivery {
-   
-    z-index: -5;
-
-    border-radius: 15px;
     background: url("../assets/images/background.png");
     border-radius: 15px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 592px;
     height: 300px;
 }
