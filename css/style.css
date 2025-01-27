@@ -679,6 +679,8 @@ li a:hover {
     border-radius: 3px;
     color: #fff;
     background-color: var(--sale);
+    border: none;
+    outline: none;
 }
 
 .del_left h2 {
