@@ -650,6 +650,8 @@ li a:hover {
 .delivery {
     background: url("../assets/images/background.png");
     border-radius: 15px;
+    background-position: center;
+    background-size: cover;
 }
 
 .del_main {
