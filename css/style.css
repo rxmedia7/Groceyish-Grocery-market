@@ -304,6 +304,9 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+#call_number {
     color: var(--primary-color);
 }
 
