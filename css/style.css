@@ -162,6 +162,7 @@ nav {
     background-color: transparent;
     font-size: 14px;
     width: 350px;
+    height: 0px;
 }
 
 .searchbar #s_icon {
