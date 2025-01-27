@@ -650,7 +650,6 @@ li a:hover {
 .delivery {
     background: url("../assets/images/background.png");
     border-radius: 15px;
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 592px;
