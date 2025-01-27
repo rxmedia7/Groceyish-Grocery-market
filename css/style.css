@@ -310,6 +310,10 @@ nav {
     color: var(--primary-color);
 }
 
+.bi-telephone {
+    color: var(--primary-color);
+}
+
 .banner {
     height: 480px;
     width: 100%;
