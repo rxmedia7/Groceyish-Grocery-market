@@ -653,14 +653,13 @@ li a:hover {
     width: 592px;
     height: 300px;
     z-index: -5;
+    padding: 33px 0px 0px 48px;
 }
 
 .del_main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
 }
 
 #del_bg {
@@ -668,7 +667,8 @@ li a:hover {
     background: url("../assets/images/background.png");
     border-radius: 15px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    z-index: 5;
 }
 
 .del_main #btn_top {
