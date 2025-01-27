@@ -640,3 +640,9 @@ li a:hover {
     color: var(--primary-color);
     font-weight: 700;
 }
+
+.ads_card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
