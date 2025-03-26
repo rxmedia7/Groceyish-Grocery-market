@@ -1046,7 +1046,7 @@ li a:hover {
     color: #000;
     font-size: 12px;
     text-align: left;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 #m_inp_req {
@@ -1071,7 +1071,7 @@ li a:hover {
 }
 
 .mail_inp input {
-    font-size: 14px;
+    font-size: 12px;
     color: #ADADAD;
     font-weight: 500;
     border: none;
@@ -1080,6 +1080,7 @@ li a:hover {
 
 .rfs_bg button {
     width: 100%;
+    margin-top: 20px;
     padding: 10px;
     border: none;
     outline: none;
