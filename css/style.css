@@ -1009,7 +1009,6 @@ li a:hover {
     background: url(../assets/images/background.png);
     border-radius: 8px;
     background-size: contain;
-    background-repeat: no-repeat;
     width: 228px;
     height: 387px;
 }
@@ -1018,6 +1017,6 @@ li a:hover {
     background-color: #d2efe1bd;
     border-radius: 15px;
     width: 228px;
-    height: 100%;
-    padding: 387px;
+    height: 387px;
+    padding: 10px;
 }
