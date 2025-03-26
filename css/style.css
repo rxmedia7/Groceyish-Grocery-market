@@ -1011,6 +1011,7 @@ li a:hover {
     background-size: contain;
     width: 228px;
     height: 387px;
+    margin-bottom: 100px;
 }
 
 .rfs_bg {
