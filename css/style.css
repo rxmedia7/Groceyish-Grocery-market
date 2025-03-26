@@ -1041,8 +1041,42 @@ li a:hover {
     text-align: center;
     padding-bottom: 15px;
 }
-#mail_inp{
+
+#mail_inp {
     color: #000;
     font-size: 12px;
     text-align: left;
+}
+
+#m_inp_req {
+    color: red;
+}
+
+.rfs_bg i {
+    font-size: 18px;
+    color: #ADADAD;
+}
+
+.mail_inp {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mail_inp input {
+    font-size: 14px;
+    color: #ADADAD;
+    font-weight: 500;
+}
+
+.rfs_bg button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--primary-color);
 }
