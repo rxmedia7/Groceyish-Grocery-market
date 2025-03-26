@@ -509,6 +509,30 @@ li a:hover {
     filter: drop-shadow(0px 25px 25px #f6750590);
 }
 
+.two {
+    filter: drop-shadow(0px 25px 25px #1d351090);
+}
+
+.three {
+    filter: drop-shadow(0px 25px 25px #c0011f90);
+}
+
+.four {
+    filter: drop-shadow(0px 25px 25px #8e203090);
+}
+
+.five {
+    filter: drop-shadow(0px 25px 25px #fd890290);
+}
+
+.six {
+    filter: drop-shadow(0px 25px 25px #cd9b4d90);
+}
+
+.seven {
+    filter: drop-shadow(0px 25px 25px #d7461c90);
+}
+
 .fruitname {
     font-size: 18px;
 }
