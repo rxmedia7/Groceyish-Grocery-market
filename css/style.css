@@ -1024,7 +1024,7 @@ li a:hover {
     padding: 10px;
 }
 
-.rfs_bg :nth-child(1) {
+.rfs_top :nth-child(1) {
     color: #253D4E;
     font-size: 32px;
     font-weight: 600;
@@ -1033,7 +1033,7 @@ li a:hover {
     padding: 15px 0px;
 }
 
-.rfs_bg :nth-child(2) {
+.rfs_top :nth-child(2) {
     color: #253D4E;
     font-size: 16px;
     font-weight: 500;
