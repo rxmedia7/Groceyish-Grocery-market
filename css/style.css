@@ -506,35 +506,36 @@ li a:hover {
 }
 
 .one {
-    filter: drop-shadow(0px 25px 25px #f6750590);
+    filter: drop-shadow(0px 25px 25px #f6750580);
 }
 
 .two {
-    filter: drop-shadow(0px 25px 25px #1d351090);
+    filter: drop-shadow(0px 25px 25px #1d351080);
 }
 
 .three {
-    filter: drop-shadow(0px 25px 25px #c0011f90);
+    filter: drop-shadow(0px 25px 25px #c0011f80);
 }
 
 .four {
-    filter: drop-shadow(0px 25px 25px #8e203090);
+    filter: drop-shadow(0px 25px 25px #8e203080);
 }
 
 .five {
-    filter: drop-shadow(0px 25px 25px #fd890290);
+    filter: drop-shadow(0px 25px 25px #fd890280);
 }
 
 .six {
-    filter: drop-shadow(0px 25px 25px #cd9b4d90);
+    filter: drop-shadow(0px 25px 25px #cd9b4d80);
 }
 
 .seven {
-    filter: drop-shadow(0px 25px 25px #d7461c90);
+    filter: drop-shadow(0px 25px 25px #d7441c80);
 }
 
 .fruitname {
     font-size: 18px;
+    z-index: 5;
 }
 
 .quantity {
