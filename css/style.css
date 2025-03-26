@@ -1023,3 +1023,26 @@ li a:hover {
     height: 100%;
     padding: 10px;
 }
+
+.rfs_bg :nth-child(1) {
+    color: #253D4E;
+    font-size: 32px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.rfs_bg :nth-child(2) {
+    color: #253D4E;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#mail_inp{
+    color: #000;
+    font-size: 12px;
+    text-align: left;
+}
