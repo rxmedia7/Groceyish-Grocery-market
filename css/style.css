@@ -1042,16 +1042,19 @@ li a:hover {
     padding-bottom: 15px;
 }
 
+.forsale_login,
+.forsale_pass {
+    margin-top: 20px;
+}
+
 #mail_inp {
     color: #000;
     font-size: 12px;
     text-align: left;
-    margin-top: 20px;
 }
 
 #m_inp_req {
     color: red;
-    margin-top: 20px;
 }
 
 .rfs_bg i {
