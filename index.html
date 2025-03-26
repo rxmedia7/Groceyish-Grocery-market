@@ -103,7 +103,7 @@
                         <div class="contact_us">
                             <form action="">
                                 <i class="bi bi-send"></i>
-                                <input type="email" placeholder="Enter your email address">
+                                <input type="email" placeholder="Enter your email address" id="e-mail">
                                 <button type="submit">Subscribe</button>
                             </form>
                         </div>
@@ -118,6 +118,8 @@
     <!-- Main content -->
     <main>
         <div class="container">
+            <!-- Explore categories-->
+
             <div class="exp_categories">
                 <div class="exp_top">
                     <h2 class="heading">Explore Categories</h2>
@@ -132,8 +134,8 @@
                     </section>
                 </div>
                 <div class="arrows">
-                    <i class="bi bi-arrow-left"></i>
-                    <i class="bi bi-arrow-right"></i>
+                    <i class="bi bi-arrow-left" id="arrow-left"></i>
+                    <i class="bi bi-arrow-right" id="arrow-right"></i>
                 </div>
                 <div class="exp_card">
                     <div class="card">
@@ -173,6 +175,9 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Featured products -->
+
             <div class="featured">
                 <div class="featured_top">
                     <h2 class="heading">Featured Products</h2>
@@ -188,7 +193,7 @@
                 </div>
                 <div class="featured_card">
                     <div class="f_card">
-                        <img src="assets/images/redish.jpg" alt="reddish">
+                        <img src="assets/images/redish.png" alt="reddish">
                         <div class="f_main">
                             <h4 class="which_ctg">Vegetables</h4>
                             <h3 class="prod_name">Reddish 500g</h3>
@@ -218,7 +223,7 @@
                     </div>
 
                     <div class="f_card">
-                        <img src="assets/images/potatos.jpg" alt="potatos">
+                        <img src="assets/images/potatos.png" alt="potatos">
                         <div class="f_main">
                             <h4 class="which_ctg">Vegetables</h4>
                             <h3 class="prod_name">Potatos 1kg</h3>
@@ -248,7 +253,7 @@
                     </div>
 
                     <div class="f_card">
-                        <img src="assets/images/tomatos.jpg" alt="tomatos">
+                        <img src="assets/images/tomatos.png" alt="tomatos">
                         <div class="f_main">
                             <h4 class="which_ctg">Vegetables</h4>
                             <h3 class="prod_name">Tomatos 200g</h3>
@@ -277,7 +282,7 @@
                         </div>
                     </div>
                     <div class="f_card">
-                        <img src="assets/images/broccoli.jpg" alt="broccoli">
+                        <img src="assets/images/broccoli.png" alt="broccoli">
                         <div class="f_main">
                             <h4 class="which_ctg">Vegetables</h4>
                             <h3 class="prod_name">Broccoli 1kg</h3>
@@ -306,7 +311,7 @@
                         </div>
                     </div>
                     <div class="f_card">
-                        <img src="assets/images/beans.jpg" alt="beans">
+                        <img src="assets/images/beans.png" alt="beans">
                         <div class="f_main">
                             <h4 class="which_ctg">Vegetables</h4>
                             <h3 class="prod_name">Green beans 250g</h3>
@@ -351,7 +356,7 @@
                                     delivery anywhere</p>
                                 <div class="shopnow">
                                     <button>Shop Now</button>
-                                    <!-- <i class="bi bi-arrow-right"></i> -->
+                                    <i class="bi bi-arrow-right" id="shop-arr"></i>
                                 </div>
                             </div>
                             <div class="del_right">
@@ -361,22 +366,205 @@
                     </div>
                 </div>
                 <div class="sales">
-                    <img src="assets/images/background.png" alt="background">
-                    <div class="sales_main">
-                        <button>60% off</button>
-                        <h2>Organic Food</h2>
+                    <div class="sales-bg">
+                        <div class="sales_main">
+                            <button id="sales-top">60% off</button>
+                            <h2>Organic Food</h2>
 
-                        <p>Save up to 60% off your <br>
-                            first order</p>
-                        <div class="shopnow">
-                            <button>Order Now</button>
-                            <i class="bi bi-arrow-right"></i>
+                            <p>Save up to 60% off your <br>
+                                first order</p>
+                            <div class="ordernow">
+                                <button>Order Now</button>
+                                <i class="bi bi-arrow-right" id="order-arr"></i>
+                            </div>
                         </div>
+                        <img src="assets/images/orgfood.png" alt="orgfood" id="orgfood">
                     </div>
-                    <img src="assets/images/orgfood.png" alt="orgfood">
                 </div>
             </div>
-        </div>
+
+            <!-- Daily Best Sells -->
+            <div class="best_sells">
+                <div class="sells_top">
+                    <section class="sells_ctg">
+                        <h2 class="heading">Daily Best Sells</h2>
+                        <ul>
+                            <li><a href="">Featured</a></li>
+                            <li><a href="">Popular</a></li>
+                            <li><a href="">New</a></li>
+                            <div class="countdown">
+                                <p>Expires in:</p>
+                                <p id="cnt_down">10:56:21</p>
+                            </div>
+                        </ul>
+                    </section>
+                    <div class="sells_arr">
+                        <i class="bi bi-arrow-left" id="sells-arr-left"></i>
+                        <i class="bi bi-arrow-right" id="sells-arr-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sells_cards">
+                <div class="s_card">
+                    <button id="save_10">Save 10%</button>
+                    <img src="assets/images/coffe.png" alt="coffe" id="prod_img">
+                    <div class="s_card_main">
+                        <p id="which_ctg">Coffe & teas</p>
+                        <p id="prod_name">Coffe 1kg</p>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                            <p class="star_count">(4)</p>
+                        </div>
+                        <div class="owner">
+                            <p>By</p>
+                            <p>Mr.Food</p>
+                        </div>
+                        <div class="prod_cost">
+                            <p id="reduced_cost">$20</p>
+                            <p>$25</p>
+                        </div>
+                        <input type="range" id="sold_range" value="0" min="0" max="50">
+                        <p id="sold">Sold: 20/50</p>
+                        <div class="add_cart">
+                            <i class="bi bi-cart2" id="cart"></i>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="s_card">
+                    <button id="best_deal">Best deal</button>
+                    <img src="assets/images/sausage.png" alt="coffe" id="prod_img">
+                    <div class="s_card_main">
+                        <p id="which_ctg">Meat</p>
+                        <p id="prod_name">Halal Sausage 350g</p>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                            <p class="star_count">(4)</p>
+                        </div>
+                        <div class="owner">
+                            <p>By</p>
+                            <p>Mr.Food</p>
+                        </div>
+                        <div class="prod_cost">
+                            <p id="reduced_cost">$4</p>
+                            <p>$10</p>
+                        </div>
+                        <input type="range" id="sold_range" value="0" min="0" max="20">
+                        <p id="sold">Sold: 7/20</p>
+                        <div class="add_cart">
+                            <i class="bi bi-cart2" id="cart"></i>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="s_card">
+                    <button id="save_10">Save 4%</button>
+                    <img src="assets/images/tea.png" alt="coffe" id="prod_img">
+                    <div class="s_card_main">
+                        <p id="which_ctg">Coffe & teas</p>
+                        <p id="prod_name">Green Tea 250g</p>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                            <p class="star_count">(4)</p>
+                        </div>
+                        <div class="owner">
+                            <p>By</p>
+                            <p>Mr.Food</p>
+                        </div>
+                        <div class="prod_cost">
+                            <p id="reduced_cost">$3</p>
+                            <p>$7</p>
+                        </div>
+                        <input type="range" id="sold_range" value="0" min="0" max="50">
+                        <p id="sold">Sold: 32/50</p>
+                        <div class="add_cart">
+                            <i class="bi bi-cart2" id="cart"></i>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="s_card">
+                    <button id="save_10">Save 8%</button>
+                    <img src="assets/images/onion.png" alt="coffe" id="prod_img">
+                    <div class="s_card_main">
+                        <p id="which_ctg">Vegetables</p>
+                        <p id="prod_name">Onion 1kg</p>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                            <p class="star_count">(4)</p>
+                        </div>
+                        <div class="owner">
+                            <p>By</p>
+                            <p>Mr.Food</p>
+                        </div>
+                        <div class="prod_cost">
+                            <p id="reduced_cost">$0.50</p>
+                            <p>$2</p>
+                        </div>
+                        <input type="range" id="sold_range" value="0" min="0" max="50">
+                        <p id="sold">Sold: 2/10</p>
+                        <div class="add_cart">
+                            <i class="bi bi-cart2" id="cart"></i>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="s_card">
+                    <button id="save_10">Save 8%</button>
+                    <img src="assets/images/onion.png" alt="coffe" id="prod_img">
+                    <div class="s_card_main">
+                        <p id="which_ctg">Vegetables</p>
+                        <p id="prod_name">Onion 1kg</p>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                            <p class="star_count">(4)</p>
+                        </div>
+                        <div class="owner">
+                            <p>By</p>
+                            <p>Mr.Food</p>
+                        </div>
+                        <div class="prod_cost">
+                            <p id="reduced_cost">$0.50</p>
+                            <p>$2</p>
+                        </div>
+                        <input type="range" id="sold_range" value="0" min="0" max="50">
+                        <p id="sold">Sold: 2/10</p>
+                        <div class="add_cart">
+                            <i class="bi bi-cart2" id="cart"></i>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <hr>
+
         </div>
     </main>
 
