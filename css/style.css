@@ -1046,6 +1046,7 @@ li a:hover {
     color: #000;
     font-size: 12px;
     text-align: left;
+    padding-top: 20px;
 }
 
 #m_inp_req {
@@ -1063,6 +1064,7 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 5px;
     background-color: #fff;
     border-radius: 8px;
     text-align: left;
