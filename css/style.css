@@ -1083,6 +1083,7 @@ li a:hover {
 }
 .forsale_btn{
     padding-top: 38px;
+    position: relative;
 }
 
 .rfs_bg div button {
