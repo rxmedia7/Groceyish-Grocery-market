@@ -1007,6 +1007,8 @@ li a:hover {
 
 .reg_forsale {
     background: url(../assets/images/background.png);
+    z-index: 5;
+
     border-radius: 8px;
     background-size: contain;
     width: 228px;
@@ -1015,7 +1017,7 @@ li a:hover {
 }
 
 .rfs_bg {
-    background-color: #d2efe1bd;
+    background-color: #fff7e6da;
     border-radius: 8px;
     width: 100%;
     height: 100%;
