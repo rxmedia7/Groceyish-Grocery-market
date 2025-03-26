@@ -503,6 +503,7 @@ li a:hover {
     margin: 0px auto;
     width: 100px;
     height: 100px;
+    z-index: -3;
 }
 
 .one {
@@ -535,7 +536,6 @@ li a:hover {
 
 .fruitname {
     font-size: 18px;
-    z-index: 5;
 }
 
 .quantity {
