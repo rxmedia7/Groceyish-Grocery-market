@@ -507,31 +507,31 @@ li a:hover {
 }
 
 .one {
-    filter: drop-shadow(0px 25px 25px #f6750580);
+    filter: drop-shadow(0px 25px 25px #f6750550);
 }
 
 .two {
-    filter: drop-shadow(0px 25px 25px #1d351080);
+    filter: drop-shadow(0px 25px 25px #1d351050);
 }
 
 .three {
-    filter: drop-shadow(0px 25px 25px #c0011f80);
+    filter: drop-shadow(0px 25px 25px #c0011f50);
 }
 
 .four {
-    filter: drop-shadow(0px 25px 25px #8e203080);
+    filter: drop-shadow(0px 25px 25px #8e203050);
 }
 
 .five {
-    filter: drop-shadow(0px 25px 25px #fd890280);
+    filter: drop-shadow(0px 25px 25px #fd880250);
 }
 
 .six {
-    filter: drop-shadow(0px 25px 25px #cd9b4d80);
+    filter: drop-shadow(0px 25px 25px #cd9b4d50);
 }
 
 .seven {
-    filter: drop-shadow(0px 25px 25px #d7441c80);
+    filter: drop-shadow(0px 25px 25px #d7441c50);
 }
 
 .fruitname {
