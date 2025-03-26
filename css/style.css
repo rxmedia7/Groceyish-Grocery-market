@@ -1008,7 +1008,7 @@ li a:hover {
 .reg_forsale {
     background: url(../assets/images/background.png);
     border-radius: 8px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 228px;
     height: 387px;
