@@ -1053,13 +1053,13 @@ li a:hover {
 }
 
 .rfs_bg i {
-    font-size: 16px;
+    font-size: 14px;
     color: #ADADAD;
 }
 
 .mail_inp {
     width: 100%;
-    padding: 10px;
+    padding: 5px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1072,6 +1072,8 @@ li a:hover {
     font-size: 14px;
     color: #ADADAD;
     font-weight: 500;
+    border: none;
+    outline: none;
 }
 
 .rfs_bg button {
