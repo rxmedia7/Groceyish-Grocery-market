@@ -1127,3 +1127,38 @@ li a:hover {
     font-size: 16px;
     font-weight: 500;
 }
+
+/* Rated by Category */
+.rated_by_ctg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.rated_top h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+#rated_underline {
+    width: 96px;
+    height: 2px;
+    border-radius: 5px;
+    padding: 10px 0px 20px 0px;
+}
+
+.rated_left {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--featured);
+}
+
+.rated_left img {
+    width: 66px;
+    height: 66px;
+}
