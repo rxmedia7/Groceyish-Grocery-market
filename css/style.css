@@ -1164,3 +1164,8 @@ li a:hover {
     width: 66px;
     height: 66px;
 }
+.rated_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
