@@ -905,7 +905,6 @@ li a:hover {
     height: 387px;
     border-radius: 8px;
     background-color: var(--searchbar);
-    margin-bottom: 100px;
 }
 
 .s_card #save_10 {
@@ -1164,7 +1163,15 @@ li a:hover {
     width: 66px;
     height: 66px;
 }
-.rated_main{
+
+.rated_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.rated_main {
     display: flex;
     align-items: center;
     justify-content: space-between;
