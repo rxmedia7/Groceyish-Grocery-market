@@ -1147,7 +1147,7 @@ li a:hover {
     height: 2px;
     border-radius: 5px;
     padding: 10px 0px 20px 0px;
-    color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .rated_left {
