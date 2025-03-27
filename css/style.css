@@ -1147,6 +1147,7 @@ li a:hover {
     height: 2px;
     border-radius: 5px;
     padding: 10px 0px 20px 0px;
+    color: var(--primary-color);
 }
 
 .rated_left {
@@ -1155,6 +1156,7 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 6px;
     background-color: var(--featured);
 }
 
