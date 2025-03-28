@@ -134,7 +134,6 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: transparent;
     color: var(--text-color);
 }
 
@@ -145,15 +144,12 @@ nav {
     font-size: 16px;
     border: none;
     outline: none;
-    -webkit-appearance: none;
+    padding: 10px;
 }
 
 .searchbar form select option {
-    background-color: var(--searchbar);
-    color: var(--primary-color);
-    z-index: 5;
-    -webkit-appearance: none;
-
+    background-color: var(--searchbar) !important;
+    color: var(--text-color);
 }
 
 .searchbar p {
@@ -1384,5 +1380,4 @@ footer {
     font-size: 16px;
     font-weight: 400;
     color: var(--secondary-color);
-    color: rebeccapurple;
 }
