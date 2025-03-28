@@ -1376,6 +1376,11 @@ footer {
     gap: 10px;
 }
 
+.social_media a img {
+    width: 44px;
+    height: 44px;
+}
+
 .social p {
     font-size: 16px;
     font-weight: 400;
