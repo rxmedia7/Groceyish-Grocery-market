@@ -145,11 +145,15 @@ nav {
     font-size: 16px;
     border: none;
     outline: none;
+    -webkit-appearance: none;
 }
 
 .searchbar form select option {
     background-color: var(--searchbar);
+    color: var(--primary-color);
     z-index: 5;
+    -webkit-appearance: none;
+
 }
 
 .searchbar p {
@@ -1380,4 +1384,5 @@ footer {
     font-size: 16px;
     font-weight: 400;
     color: var(--secondary-color);
+    color: rebeccapurple;
 }
