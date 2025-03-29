@@ -847,6 +847,7 @@ li a:hover {
     justify-content: left;
     gap: 30px;
 }
+
 .sells_ctg ul {
     display: flex;
     align-items: center;
@@ -884,6 +885,21 @@ li a:hover {
     text-align: center;
 }
 
+.countdown {
+    width: 220px;
+    height: 41px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cnt_down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .countdown p {
     font-size: 18px;
     color: var(--text-color);
@@ -891,7 +907,7 @@ li a:hover {
 
 .countdown #h_split {
     font-size: 18px;
-    padding: 0px 5px;
+    padding: 0px 4px;
     color: var(--text-color);
 }
 
