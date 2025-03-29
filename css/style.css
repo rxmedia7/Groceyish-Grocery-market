@@ -885,13 +885,15 @@ li a:hover {
     text-align: center;
 }
 
-.countdown #cnt_down {
-    letter-spacing: 5px;
-    font-size: 18px;
-}
-
 .countdown p {
     font-size: 18px;
+    color: var(--text-color);
+}
+
+.countdown #h_split {
+    font-size: 18px;
+    padding: 0px 5px;
+    color: var(--text-color);
 }
 
 /* Sells cards */
