@@ -73,12 +73,17 @@
 }
 
 .login_inp {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
     width: 400px;
     height: 40px;
     padding: 10px;
     border-radius: 8px;
     background-color: transparent;
     border: 1px solid var(--primary-color);
+    margin-top: 20px;
 }
 
 .login_inp input {
