@@ -86,7 +86,7 @@
     margin-top: 20px;
 }
 
-.login_inp #l_inp {
+.login_inp input {
     width: 90%;
     height: 100%;
     border: none;
