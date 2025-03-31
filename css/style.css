@@ -227,24 +227,11 @@ nav {
     font-size: 12px;
 }
 
-.user {
+.usermenu {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
-}
-
-.user i {
-    font-size: 36px;
-}
-
-.user p {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.user .bi-chevron-down {
-    font-size: 12px;
 }
 
 #modeswitcher {
