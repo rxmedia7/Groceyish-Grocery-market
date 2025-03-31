@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Groceyish</title>
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="assets/icons/logo.svg">
 </head>
+
 <body>
-    
-</body>
-</html>
+    <!-- Navigation bar -->
+    <div class="container">
+        <nav>
+            <a href="index.html">
+                <div class="logo">
+                    <img src="assets/icons/logo.svg" alt="logo">
+                    <div id="logotxt">
+                        <h2>Groceyish</h2>
+                        <p>Grocery</p>
+                    </div>
+                </div>
+            </a>
+            <div class="searchbar">
+                <form action="" id="search">
+                    <select name="category">
+                        <option value="All Categories">All Categories</option>
+                        <option value="Vegetables">Vegatebles</option>
+                        <option value="Fruits">Fruits</option>
+                        <option value="Coffee & teas">Coffee & teas</option>
+                        <option value="Meat">Meat</option>
+                    </select>
+                    <p>|</p>
+                    <input type="search" id="search_inp" placeholder="Search for items...">
+                    <div id="s_icon">
+                        <i class="bi bi-search"></i>
+                    </div>
+                </form>
+            </div>
+            <div class="pages">
+                <div class="wishlist">
+                    <i class="bi bi-heart"></i>
+                    <p>Wishlist</p>
+                </div>
+                <div class="my_cart">
+                    <i class="bi bi-cart3"></i>
+                    <p>My cart</p>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <i class="bi bi-brightness-low" id="modeswitcher"></i>
+                <div class="usermenu">
+                    <a href="pages/login.html"><button id="login">Login</button></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="nav_split"></div>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="headertop">
+                <div class="browse">
+                    <i class="bi bi-grid"></i>
+                    <p>Browse All Categories</p>
+                </div>
+                <div class="header_links">
+                    <div class="home">
+                        <i class="bi bi-house-door" class="ico"></i>
+                        <p class="hl_txt">Home</p>
+                    </div>
+                    <div class="hot_deals">
+                        <i class="bi bi-fire" class="ico"></i>
+                        <p class="hl_txt">Hot deals</p>
+                    </div>
+                    <div class="promotions">
+                        <i class="bi bi-percent" class="ico"></i>
+                        <p class="hl_txt">Promotions</p>
+                    </div>
+                    <div class="new_prod">
+                        <i class="bi bi-megaphone" class="ico"></i>
+                        <p class="hl_txt">New products</p>
+                    </div>
+                </div>
+                <div class="call_center">
+                    <i class="bi bi-telephone"></i>
+                    <p id="call_number">1233-7777</p>
+                    <p>24/7 support center</p>
+                </div>
+            </div>
+        </div>
+    </header>
