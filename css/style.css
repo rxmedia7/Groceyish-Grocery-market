@@ -417,6 +417,10 @@ nav {
     width: 80%;
 }
 
+.contact_us form button:hover {
+    background-color: #32a36e;
+}
+
 .contact_us form input::placeholder {
     color: var(--text-color);
     font-size: 14px;
@@ -1071,6 +1075,10 @@ li a:hover {
     border: none;
     outline: none;
     background-color: transparent;
+}
+
+.add_cart button:hover {
+    background-color: #32a36e;
 }
 
 .reg_forsale {
