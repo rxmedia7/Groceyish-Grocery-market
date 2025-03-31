@@ -185,7 +185,7 @@ nav {
 }
 
 #s_icon:hover {
-    background-color: #228456;
+    background-color: #32a36e;
 }
 
 .pages {
@@ -251,8 +251,8 @@ nav {
     font-weight: 600;
 }
 
-#logiN:hover {
-    background-color: #228456;
+#login:hover {
+    background-color: #32a36e;
 }
 
 #modeswitcher {
@@ -288,7 +288,7 @@ nav {
 }
 
 .browse:hover {
-    background-color: #228456;
+    background-color: #32a36e;
 }
 
 .browse i {
