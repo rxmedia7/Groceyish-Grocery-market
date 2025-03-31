@@ -1,0 +1,84 @@
+:root {
+    --bg-color: #1C1C1C;
+    --text-color: #FFF;
+    --searchbar: #ffffff20;
+    --icons: #FFF;
+    --primary-color: #3BB77E;
+    --secondary-color: #f3f2f2;
+    --add-button: #DEF9EC;
+    --sale: #FFD480;
+    --white: #FFF;
+    --header-mail: #5C5C5C;
+    --arrow-btn: #f2f3f444;
+    --card-bg: #feefea5b;
+    --featured: #ffffff2d;
+    --rated-card-bg: #4b4b4b;
+}
+
+.daymode {
+    --primary-color: #3BB77E;
+    --secondary-color: #ADADAD;
+    --bg-color: #FFF;
+    --searchbar: #F3F3F3;
+    --text-color: #253D4E;
+    --banner: #FFF7E6;
+    --card-bg: #feefeaf1;
+    --icons: #2c2c2c;
+    --header-mail: #fff;
+    --arrow-btn: #f2f3f4;
+    --featured: 2px solid #adadad49;
+    --rated-card-bg: #F4F6FA;
+}
+
+.loginmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#login_img {
+    width: 616px;
+    height: 350px;
+}
+
+.login h1 {
+    font-size: 32px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.login p {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+#signup_link {
+    font-size: 15px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+#signup_link:hover {
+    color: #00B59C;
+}
+
+.login_inp {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+}
+
+.login_inp::placeholder {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#login_mail {
+    font-size: 22px;
+    color: var(--icons);
+}
