@@ -1,6 +1,11 @@
 let modeswitch = document.querySelector("#modeswitcher");
-
 modeswitch.addEventListener("pointerdown", () => {
+    document.body.classList.toggle("daymode");
+});
+//my cart
+
+let cart = document.querySelector(".my_cart");
+cart.addEventListener("pointerdown", () => {
     document.body.classList.toggle("daymode");
 });
 
