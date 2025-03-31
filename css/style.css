@@ -238,8 +238,11 @@ nav {
     width: 120px;
     height: 42px;
     padding: 5px 10px;
-
-
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    border: none;
+    outline:  none;
 }
 
 #modeswitcher {
