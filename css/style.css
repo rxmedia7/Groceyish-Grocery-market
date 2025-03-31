@@ -243,6 +243,8 @@ nav {
     border-radius: 8px;
     border: none;
     outline:  none;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 #modeswitcher {
