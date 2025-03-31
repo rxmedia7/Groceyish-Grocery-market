@@ -184,6 +184,10 @@ nav {
     font-size: 24px;
 }
 
+#s_icon:hover {
+    background-color: #228456;
+}
+
 .pages {
     display: flex;
     align-items: center;
@@ -242,9 +246,13 @@ nav {
     background-color: var(--primary-color);
     border-radius: 8px;
     border: none;
-    outline:  none;
+    outline: none;
     font-size: 18px;
     font-weight: 600;
+}
+
+#logiN:hover {
+    background-color: #228456;
 }
 
 #modeswitcher {
@@ -277,6 +285,10 @@ nav {
     justify-content: center;
     gap: 5px;
     border-radius: 8px;
+}
+
+.browse:hover {
+    background-color: #228456;
 }
 
 .browse i {
