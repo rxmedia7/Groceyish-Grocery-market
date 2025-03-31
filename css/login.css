@@ -34,6 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px;
 }
 
 #login_img {
@@ -47,6 +48,14 @@
     font-weight: 600;
 }
 
+#login_p {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 15px;
+    padding: 10px 0px;
+}
+
 .login p {
     font-size: 15px;
     font-weight: 500;
@@ -54,9 +63,9 @@
 }
 
 #signup_link {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--primary-color);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #signup_link:hover {
@@ -70,6 +79,14 @@
     border-radius: 8px;
     background-color: transparent;
     border: 1px solid var(--primary-color);
+}
+
+.login_inp input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
 }
 
 .login_inp::placeholder {
