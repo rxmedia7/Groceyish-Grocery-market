@@ -234,6 +234,14 @@ nav {
     gap: 5px;
 }
 
+.usermenu #login {
+    width: 120px;
+    height: 42px;
+    padding: 5px 10px;
+
+
+}
+
 #modeswitcher {
     font-size: 22px;
     padding-left: 10px;
