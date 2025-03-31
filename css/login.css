@@ -62,13 +62,13 @@
     color: var(--secondary-color);
 }
 
-#signup_link {
+#direct_link {
     font-size: 16px;
     color: var(--primary-color);
-    font-weight: 600;
+    font-weight: 700;
 }
 
-#signup_link:hover {
+#direct_link:hover {
     color: #00B59C;
 }
 
@@ -92,7 +92,7 @@
     border: none;
     outline: none;
     background-color: transparent;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .login_inp::placeholder {
@@ -126,4 +126,40 @@
     border: none;
     outline: none;
     text-align: center
+}
+#l_submit:hover{
+    background-color: #32a36e;
+}
+
+.spl {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+#spl {
+    width: 30%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: var(--text-color);
+}
+
+.spl p {
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.reg_opt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reg_opt img {
+    width: 44px;
+    height: 44px;
 }

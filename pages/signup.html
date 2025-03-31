@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../assets/icons/logo.svg">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <div class="container">
+        <nav>
+            <a href="../index.html">
+                <div class="logo">
+                    <img src="../assets/icons/logo.svg" alt="logo">
+                    <div id="logotxt">
+                        <h2>Groceyish</h2>
+                        <p>Grocery</p>
+                    </div>
+                </div>
+            </a>
+            <div class="searchbar">
+                <form action="" id="search">
+                    <select name="category">
+                        <option value="All Categories">All Categories</option>
+                        <option value="Vegetables">Vegatebles</option>
+                        <option value="Fruits">Fruits</option>
+                        <option value="Coffee & teas">Coffee & teas</option>
+                        <option value="Meat">Meat</option>
+                    </select>
+                    <p>|</p>
+                    <input type="search" id="search_inp" placeholder="Search for items...">
+                    <div id="s_icon">
+                        <i class="bi bi-search"></i>
+                    </div>
+                </form>
+            </div>
+            <div class="pages">
+                <div class="wishlist">
+                    <i class="bi bi-heart"></i>
+                    <p>Wishlist</p>
+                </div>
+                <div class="my_cart">
+                    <i class="bi bi-cart3"></i>
+                    <p>My cart</p>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <i class="bi bi-brightness-low" id="modeswitcher"></i>
+            </div>
+        </nav>
+    </div>
+    <div id="nav_split"></div>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="headertop">
+                <div class="browse">
+                    <i class="bi bi-grid"></i>
+                    <p>Browse All Categories</p>
+                </div>
+                <div class="header_links">
+                    <div class="home">
+                        <i class="bi bi-house-door" class="ico"></i>
+                        <p class="hl_txt">Home</p>
+                    </div>
+                    <div class="hot_deals">
+                        <i class="bi bi-fire" class="ico"></i>
+                        <p class="hl_txt">Hot deals</p>
+                    </div>
+                    <div class="promotions">
+                        <i class="bi bi-percent" class="ico"></i>
+                        <p class="hl_txt">Promotions</p>
+                    </div>
+                    <div class="new_prod">
+                        <i class="bi bi-megaphone" class="ico"></i>
+                        <p class="hl_txt">New products</p>
+                    </div>
+                </div>
+                <div class="call_center">
+                    <i class="bi bi-telephone"></i>
+                    <p id="call_number">1233-7777</p>
+                    <p>24/7 support center</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Login menu -->
+        <div class="container">
+            <div class="loginmenu">
+                <img src="../assets/images/signup_img.svg" id="login_img" alt="login img">
+                <div class="login">
+                    <h1>Signup</h1>
+                    <div id="login_p">
+                        <p>Already have an account</p>
+                        <a href="login.html" id="direct_link">Login</a>
+                    </div>
+                    <form action="">
+                        <div class="login_inp">
+                            <i class="bi bi-person" id="login_icon"></i>
+                            <input type="text" placeholder="Username" required id="l_user">
+                        </div>
+                        <div class="login_inp">
+                            <i class="bi bi-envelope" id="login_icon"></i>
+                            <input type="email" placeholder="Email address" required id="l_mail">
+                        </div>
+                        <div class="login_inp">
+                            <i class="bi bi-lock" id="login_icon"></i>
+                            <input type="password" placeholder="Password" reuired id="l_pass">
+                        </div>
+                        <div class="l_submit">
+                            <button type="submit" id="l_submit">Signup</button>
+                        </div>
+                    </form>
+
+                    <div class="spl">
+                        <div id="spl"></div>
+                        <p>Or continue with</p>
+                        <div id="spl"></div>
+                    </div>
+                    <div class="reg_opt">
+                        <img src="../assets/icons/google.png" alt="google">
+                        <img src="../assets/icons/fb.png" alt="facebook">
+                        <img src="../assets/icons/tw.png" alt="twitter">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Amenities -->
+        <div class="container">
+            <div class="ameneties">
+                <div class="a_elem">
+                    <div class="bp_left">
+                        <img src="../assets/images/prices.svg" alt="best-prices-deals">
+                    </div>
+                    <div class="bp_right">
+                        <p id="a_header">Best Prices & Deals</p>
+                        <p>Don't miss our daily amazing <br> deals and prices</p>
+                    </div>
+                </div>
+                <div class="a_elem">
+                    <div class="bp_left">
+                        <img src="../assets/images/refundable.svg" alt="refundable">
+                    </div>
+                    <div class="bp_right">
+                        <p id="a_header">Refundable</p>
+                        <p>If your items have damage <br> we agree to refund it</p>
+                    </div>
+                </div>
+                <div class="a_elem">
+                    <div class="bp_left">
+                        <img src="../assets/images/delivery.svg" alt="delivery">
+                    </div>
+                    <div class="bp_right">
+                        <p id="a_header">Free Delivery</p>
+                        <p>Do purchase over $50 and<br> get free delivery anywhere</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="foot_cont">
+                <div class="copywright">
+                    <a href="../index.html">
+                        <div class="logo">
+                            <img src="../assets/icons/logo.svg" alt="logo">
+                            <div id="logotxt">
+                                <h2>Groceyish</h2>
+                                <p>Grocery</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="c_inf">
+                        <div class="transparent_itm"></div>
+                        <div class="contact_inf">
+                            <i class="bi bi-geo-alt" id="contact_ico"></i>
+                            <p id="c_inf"><b>Address:</b>1762 School House Road</p>
+                        </div>
+                        <div class="contact_inf">
+                            <i class="bi bi-telephone" id="contact_ico"></i>
+                            <p id="c_inf"><b>Call us:</b>1233-777</p>
+                        </div>
+                        <div class="contact_inf">
+                            <i class="bi bi-envelope" id="contact_ico"></i>
+                            <p id="c_inf"><b>Email:</b>groceyish@contact.com</p>
+                        </div>
+                        <div class="contact_inf">
+                            <i class="bi bi-clock" id="contact_ico"></i>
+                            <p id="c_inf"><b>Work-hours:</b>8:00 - 20:00, Sunday - Thursday</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="account">
+                    <p id="foot_heading">Account</p>
+                    <ul class="foot_links">
+                        <li><a href="">Wishlist</a></li>
+                        <li><a href="">Cart</a></li>
+                        <li><a href="">Track Order</a></li>
+                        <li><a href="">Shipping Details</a></li>
+                    </ul>
+                </div>
+                <div class="useful_links">
+                    <p id="foot_heading">Useful Links</p>
+                    <ul class="foot_links">
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Hot deals</a></li>
+                        <li><a href="">Promotions</a></li>
+                        <li><a href="">New Products</a></li>
+                    </ul>
+                </div>
+                <div class="help_center">
+                    <p id="foot_heading">Help Center</p>
+                    <ul class="foot_links">
+                        <li><a href="">Payments</a></li>
+                        <li><a href="">Refund</a></li>
+                        <li><a href="">Checkout</a></li>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">Q&A</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social">
+                <p>© 2025, All rights reserved</p>
+                <div class="social_media">
+                    <a href="">
+                        <img src="../assets/icons/fb.png" alt="facebook">
+                    </a>
+                    <a href="">
+                        <img src="../assets/icons/in.png" alt="linkedin">
+                    </a>
+                    <a href="">
+                        <img src="../assets/icons/ins.png" alt="instagram">
+                    </a>
+                    <a href="">
+                        <img src="../assets/icons/tw.png" alt="twitter">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/pages.js"></script>

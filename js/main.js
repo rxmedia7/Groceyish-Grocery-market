@@ -4,9 +4,6 @@ modeswitch.addEventListener("pointerdown", () => {
     document.body.classList.toggle("daymode");
 });
 
-let hltext = document.querySelectorAll(".hl_txt");
-let icon = document.querySelectorAll(".ico");
-
 //countdown
 let hours = 11;
 let minutes = 0;
