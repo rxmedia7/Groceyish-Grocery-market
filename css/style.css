@@ -1077,7 +1077,7 @@ li a:hover {
     background-color: transparent;
 }
 
-.add_cart button:hover {
+.add_cart:hover {
     background-color: #32a36e;
 }
 
