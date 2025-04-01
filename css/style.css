@@ -308,6 +308,22 @@ nav {
     gap: 25px;
 }
 
+.ico {
+    transition: color 0.3s ease-in-out;
+    color: var(--icons);
+}
+
+.hl_txt {
+    transition: color 0.3s ease-in-out;
+    color: var(--text-color);
+}
+
+.ico,
+.hl_txt:active {
+    color: var(--primary-color);
+}
+
+
 .header_links :nth-child(n) {
     display: flex;
     align-items: center;

@@ -12,6 +12,19 @@ menus.addEventListener("pointerdown", () => {
     ico.style="color: #3BB77E";
 });
 
+// pages active
+
+document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll(".header_links div");
+
+    links.forEach(link => {
+        link.addEventListener("click", function () {
+            links.forEach(l => l.classList.remove("active"));
+            this.classList.add("active");
+        });
+    });
+});
+
 //countdown
 let hours = 11;
 let minutes = 0;
