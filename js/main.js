@@ -8,6 +8,14 @@ let cart = document.querySelector(".my_cart");
 cart.addEventListener("pointerdown", () => {
     document.body.classList.toggle("daymode");
 });
+let menus = document.querySelector(".home");
+let ico = document.querySelector(".ico");
+let hltxt = document.querySelector(".hl_txt");
+
+
+menus.addEventListener("pointerdown", () => {
+    ico.style="color: #3BB77E";
+});
 
 //countdown
 let hours = 11;
