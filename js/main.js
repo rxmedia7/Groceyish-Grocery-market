@@ -9,7 +9,7 @@ let hltxt = document.querySelector(".hl_txt");
 
 
 menus.addEventListener("pointerdown", () => {
-    ico.style="color: #3BB77E";
+    ico.style = "color: #3BB77E";
 });
 
 // pages active
@@ -19,8 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     links.forEach(link => {
         link.addEventListener("click", function () {
-            this.classList.add("active");
-            links.forEach(l => l.classList.remove("active"));
+            links.forEach(l => l.classList.toggle("active"));
         });
     });
 });
