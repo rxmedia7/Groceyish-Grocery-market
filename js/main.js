@@ -2,12 +2,7 @@ let modeswitch = document.querySelector("#modeswitcher");
 modeswitch.addEventListener("pointerdown", () => {
     document.body.classList.toggle("daymode");
 });
-//my cart
 
-let cart = document.querySelector(".my_cart");
-cart.addEventListener("pointerdown", () => {
-    document.body.classList.toggle("daymode");
-});
 let menus = document.querySelector(".home");
 let ico = document.querySelector(".ico");
 let hltxt = document.querySelector(".hl_txt");
