@@ -309,12 +309,12 @@ nav {
 }
 
 .ico {
-    transition: color 0.3s ease-in-out;
+    transition: color 0.1s ease-in-out;
     color: var(--icons);
 }
 
 .hl_txt {
-    transition: color 0.3s ease-in-out;
+    transition: color 0.1s ease-in-out;
     color: var(--text-color);
 }
 
